@@ -1,14 +1,7 @@
 .login-body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   background-color: #f6f6f6;
-  padding: 250px 0 100px;
-  overflow-y: scroll;
-}
-
-.login-body::-webkit-scrollbar {
-  width: 1px;
-  background: #555;
+  padding: 120px 0 84px;
 }
 
 .login-body .login-form {

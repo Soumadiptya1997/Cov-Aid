@@ -8,13 +8,13 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.dashboard-Navbar {
+/* .dashboard-Navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   z-index: 1;
-}
+} */
 
 .dashboard-Navbar .nav-head {
   display: flex;
@@ -62,4 +62,25 @@ p {
 .dashboard-Navbar .nav-2ndHead .btn {
   padding: 5px 10px;
   height: fit-content;
+}
+
+.main-body {
+  height: 80vh;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001f60;
+  color: #fff;
+  padding: 10px 20vw;
+  font-size: 16px;
+}
+
+.footer div span:first-child {
+  margin-right: 5px;
+  padding-right: 6px;
+  border-right: 1px solid #fff;
 }
