@@ -1,12 +1,13 @@
 .mainpart {
-  border-left: 10px;
+  position: fixed;
+  top: 10%;
+  left: 44%;
+  transform: translate(-50%, -50%);
   border-radius: 25px;
-  border: 2px solid #b1d7f1;
-  padding: 10px;
-  width: auto;
-  height: auto;
-  padding-left: 15px;
+  border: 1px solid #b1d7f1;
+  padding: 10px;    
   margin: 200px 10px 30px 10px;
+  box-shadow: 1px 1px 1px 1px #b1d7f1;
 }
 
 .mobile {
@@ -17,4 +18,15 @@
   margin-top: 10px;
   margin-bottom: 5px;
   padding-bottom: 10px;
+}
+.schedule_button{
+  text-align: center;
+  padding: 0 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #c0e1f7;
+}
+.schedule_button:hover {
+  background-color: #e6f0f7;
 }
