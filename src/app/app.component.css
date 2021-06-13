@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+*,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.dashboard-Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.dashboard-Navbar .nav-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001f60;
+  color: #fff;
+  padding: 10px 20vw;
+}
+
+.dashboard-Navbar .nav-head .nav-head-left {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-Navbar .nav-head .nav-head-left img {
+  width: 23px;
+  margin-right: 10px;
+}
+
+.dashboard-Navbar .nav-head .nav-head-right .faq {
+  margin-right: 5px;
+  padding-right: 6px;
+  border-right: 1px solid #fff;
+}
+
+.dashboard-Navbar .nav-2ndHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20vw;
+  border-bottom: 2px solid #ddd;
+  background-color: #fff;
+  color: #001f60;
+}
+
+.dashboard-Navbar .nav-2ndHead h1 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.dashboard-Navbar .nav-2ndHead p {
+  margin-left: 20px;
+}
+
+.dashboard-Navbar .nav-2ndHead .btn {
+  padding: 5px 10px;
+  height: fit-content;
+}
