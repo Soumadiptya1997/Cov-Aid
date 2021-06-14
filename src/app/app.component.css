@@ -65,7 +65,7 @@ p {
 }
 
 .main-body {
-  height: 80vh;
+  min-height: 80vh;
 }
 
 /* Footer */
@@ -75,7 +75,7 @@ p {
   align-items: center;
   background-color: #001f60;
   color: #fff;
-  padding: 10px 20vw;
+  padding: 20px 20vw;
   font-size: 16px;
 }
 

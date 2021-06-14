@@ -1,22 +1,56 @@
-.homehelp{
-    border-bottom: 2px solid #ddd;
-}
 .help-line {
-  justify-content: center;
+  background-color: #ffe8fd;
+  padding-top: 10px;
+}
+
+.help-line h5 {
   text-align: center;
-  padding-top: 7px;
-  padding-bottom: 10px;
-  text-decoration: underline;
+  font-weight: 700;
 }
-.helpattributes {
+
+.homehelp {
   display: flex;
-  justify-content: space-evenly;
-  padding-right: 3px;
- 
+  justify-content: center;
 }
-.helplineno{
-    display: flex;
-  justify-content: space-evenly;
-  padding-left: 5px;
- 
+
+.help-inner {
+  display: flex;
+  margin: 20px 30px 10px;
+  align-items: center;
+}
+
+.help-inner i {
+  margin-right: 10px;
+}
+
+.search-center {
+  padding: 20px 0;
+}
+
+.search-center h5 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.search-center-btns {
+  display: flex;
+  width: fit-content;
+  margin: 20px auto 0;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+}
+
+.search-center-btns .btn {
+  width: 168px;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.btn-center {
+  background-color: blue;
+  color: #fff;
+}
+
+.myname {
+  background-color: aqua;
 }
