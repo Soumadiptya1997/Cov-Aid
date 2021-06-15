@@ -1,5 +1,5 @@
 <div class="help-line">
-  <h5>Helpline</h5>
+  <h4>Helpline</h4>
   <div class="homehelp">
     <div class="help-inner">
       <i class="fas fa-phone-alt fa-2x"></i>
@@ -42,19 +42,27 @@
 <img
   style="width: 100%"
   src="../../assets/images/largest-vaccine-banner.jpg"
-  alt=""
+  alt="Banner"
 />
 
 <div class="search-center">
   <h5>Check your nearest vaccination center and slots availability</h5>
-  <!-- <h1>{{ "hi" + myname }}</h1>
-  <h2>{{ searchCenterOn ? "bsqw" : "jjeqe" }}</h2> -->
   <div class="search-center-btns">
-    <button class="btn myname" (click)="onClick()">Search by PIN</button>
-    <button class="btn btn-center" (click)="onClick()">
+    <button
+      [ngClass]="[searchCenter ? 'btn-center-on' : 'btn-center-off']"
+      (click)="searchClick()"
+    >
+      Search by PIN
+    </button>
+    <button
+      [ngClass]="[searchCenter ? 'btn-center-off' : 'btn-center-on']"
+      (click)="searchClick()"
+    >
       Search by District
     </button>
   </div>
+  <search-pin [searchData]="searchCenter"></search-pin>
+  <search-district [searchData]="searchCenter"></search-district>
 </div>
 
 <div class="howitworks">
@@ -64,8 +72,10 @@
       <img src="../../assets/images/s1.svg" alt="" />
       <div>
         <h2>REGISTER YOURSELF</h2>
-        <p> Register using your Mobile no. or Aadhaar no. or any other Identity
-        docs..</p>
+        <p>
+          Register using your Mobile no. or Aadhaar no. or any other Identity
+          docs..
+        </p>
       </div>
     </div>
     <div class="worksinner">

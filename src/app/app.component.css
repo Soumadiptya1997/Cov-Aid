@@ -44,7 +44,7 @@ p {
 .dashboard-Navbar .nav-2ndHead {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20vw;
+  padding: 20px 20vw;
   border-bottom: 2px solid #ddd;
   background-color: #fff;
   color: #001f60;

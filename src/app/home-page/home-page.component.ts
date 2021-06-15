@@ -9,13 +9,9 @@ export class HomePageComponent implements OnInit {
   constructor() {}
   ngOnInit(): void {}
 
-  myname: string = 'Hello';
+  public searchCenter: boolean = true;
 
-  public searchCenterOn: boolean = true;
-  public searchCenterOff: boolean = false;
-
-  onClick(): void {
-    this.searchCenterOn = !this.searchCenterOn;
-    this.searchCenterOff = !this.searchCenterOff;
+  searchClick(): void {
+    this.searchCenter = !this.searchCenter;
   }
 }

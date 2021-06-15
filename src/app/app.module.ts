@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { SearchPinComponent } from './search-pin/search-pin.component';
+import { SearchDistrictComponent } from './search-district/search-district.component';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent, HomePageComponent],
+  declarations: [AppComponent, DashboardComponent, HomePageComponent, SearchPinComponent, SearchDistrictComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
