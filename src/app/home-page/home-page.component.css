@@ -54,3 +54,34 @@
 .myname {
   background-color: aqua;
 }
+
+.howitworks{
+  text-align: center;
+  background-color: hsl(45, 98%, 50%);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.howitworks h3{
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.insideworks{
+  display: flex;
+  justify-content: center;
+}
+
+.worksinner img{
+  max-width: 100%;
+  height: 100px
+}
+
+.worksinner h2{
+  font-weight: 700;
+  font-size: medium;
+}
+
+.worksinner p{
+  text-align: center;
+}
