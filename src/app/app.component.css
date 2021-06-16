@@ -59,6 +59,7 @@ p {
 .dashboard-Navbar .nav-2ndHead .btn-success {
   background-color: #1abc9c;
   border-color: #1abc9c;
+  margin: 0 10px;
 }
 
 .dashboard-Navbar .nav-2ndHead .btn-success:hover {

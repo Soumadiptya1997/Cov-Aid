@@ -10,6 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SearchPinComponent } from './search-pin/search-pin.component';
 import { SearchDistrictComponent } from './search-district/search-district.component';
 import { RegisterComponent } from './register/register.component';
+import { SearchContentComponent } from './search-content/search-content.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { RegisterComponent } from './register/register.component';
     SearchPinComponent,
     SearchDistrictComponent,
     RegisterComponent,
+    SearchContentComponent,
   ],
   imports: [
     BrowserModule,

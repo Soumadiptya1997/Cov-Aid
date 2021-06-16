@@ -10,4 +10,9 @@ export class SearchPinComponent implements OnInit {
   ngOnInit(): void {}
 
   @Input() public searchData;
+
+  searchContent: boolean = false;
+  searchBtnClick(): void {
+    this.searchContent = !this.searchContent;
+  }
 }
