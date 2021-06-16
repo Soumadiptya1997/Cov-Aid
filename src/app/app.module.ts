@@ -9,9 +9,17 @@ import { LoginComponent } from './login/login.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchPinComponent } from './search-pin/search-pin.component';
 import { SearchDistrictComponent } from './search-district/search-district.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent, HomePageComponent, SearchPinComponent, SearchDistrictComponent],
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    HomePageComponent,
+    SearchPinComponent,
+    SearchDistrictComponent,
+    RegisterComponent,
+  ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
@@ -19,6 +27,7 @@ import { SearchDistrictComponent } from './search-district/search-district.compo
       { path: 'home', component: HomePageComponent },
       { path: 'dashboard', component: DashboardComponent },
       { path: 'login', component: LoginComponent },
+      { path: 'register', component: RegisterComponent },
     ]),
   ],
 
