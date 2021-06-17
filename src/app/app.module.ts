@@ -11,6 +11,7 @@ import { SearchPinComponent } from './search-pin/search-pin.component';
 import { SearchDistrictComponent } from './search-district/search-district.component';
 import { RegisterComponent } from './register/register.component';
 import { SearchContentComponent } from './search-content/search-content.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SearchContentComponent } from './search-content/search-content.componen
     SearchDistrictComponent,
     RegisterComponent,
     SearchContentComponent,
+    FaqComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { SearchContentComponent } from './search-content/search-content.componen
       { path: 'dashboard', component: DashboardComponent },
       { path: 'login', component: LoginComponent },
       { path: 'register', component: RegisterComponent },
+      { path: 'faq', component: FaqComponent },
     ]),
   ],
 

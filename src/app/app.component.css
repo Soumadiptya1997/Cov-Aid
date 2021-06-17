@@ -17,6 +17,9 @@ p {
   padding: 10px 20vw;
 }
 
+.dashboard-Navbar .nav-head p {
+  font-size: x-large;
+}
 .dashboard-Navbar .nav-head .nav-head-left {
   display: flex;
   align-items: center;
@@ -31,6 +34,7 @@ p {
   margin-right: 5px;
   padding-right: 6px;
   border-right: 1px solid #fff;
+  color: #fff;
 }
 
 .dashboard-Navbar .nav-2ndHead {
@@ -39,7 +43,7 @@ p {
   padding: 20px 20vw;
   border-bottom: 2px solid #ddd;
   background-color: #fff;
-  color: #1abc9c;
+  color: #001f60;
 }
 
 .dashboard-Navbar .nav-2ndHead h1 {
