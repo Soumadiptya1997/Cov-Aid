@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FaqComponent implements OnInit {
   constructor() {}
-      showdetails: boolean = false;
+  showDetails: boolean = false;
   ngOnInit(): void {
-    this.showdetails = !this.showdetails;
+    this.showDetails = !this.showDetails;
   }
 }

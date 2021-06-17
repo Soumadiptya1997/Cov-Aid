@@ -1,13 +1,12 @@
-.faqall h2{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
+.faqall h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 .inside-faq {
-    border-radius: 25px;
-    border: 1px solid #b1d7f1;
-    padding: 10px;    
-    margin: 10px 500px 10px 500px;
-    box-shadow: 1px 1px 1px 1px #b1d7f1;
-    text-align: center;
+  border-radius: 8px;
+  border: 1px solid #b1d7f1;
+  padding: 10px;
+  margin: 9px 529px 10px 500px;
+  box-shadow: 1px 1px 1px 1px #b1d7f1;
 }
