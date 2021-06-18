@@ -12,6 +12,7 @@ import { SearchDistrictComponent } from './search-district/search-district.compo
 import { RegisterComponent } from './register/register.component';
 import { SearchContentComponent } from './search-content/search-content.component';
 import { FaqComponent } from './faq/faq.component';
+import { RegistrationComComponent } from './registration-com/registration-com.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FaqComponent } from './faq/faq.component';
     RegisterComponent,
     SearchContentComponent,
     FaqComponent,
+    RegistrationComComponent,
   ],
   imports: [
     BrowserModule,
