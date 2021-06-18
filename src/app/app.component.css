@@ -12,9 +12,9 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1abc9c;
+  background-color: #18b5ba;
   color: #fff;
-  padding: 10px 20vw;
+  padding: 25px 20vw;
 }
 
 .dashboard-Navbar .nav-head p {
@@ -35,6 +35,7 @@ p {
   padding-right: 6px;
   border-right: 1px solid #fff;
   color: #fff;
+  text-decoration: none;
 }
 
 .dashboard-Navbar .nav-2ndHead {
@@ -61,14 +62,14 @@ p {
 }
 
 .dashboard-Navbar .nav-2ndHead .btn-success {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #18b5ba;
+  border-color: #18b5ba;
   margin: 0 10px;
 }
 
 .dashboard-Navbar .nav-2ndHead .btn-success:hover {
-  background-color: #109177;
-  border-color: #109177;
+  background-color: #8ae5ea;
+  border-color: #8ae5ea;
 }
 
 .main-body {
@@ -80,7 +81,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1abc9c;
+  background-color: #18b5ba;
   color: #fff;
   padding: 20px 20vw;
   font-size: 16px;

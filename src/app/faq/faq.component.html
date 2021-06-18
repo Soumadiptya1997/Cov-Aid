@@ -2,23 +2,23 @@
   <h2>Frequently Asked Questions on Co-WIN</h2>
   <div class="inside-faq">
     <div>
-      <p>Registration</p>
-      <app-registration-com></app-registration-com>
+      <p (click)="registerFaq = !registerFaq">A. Registration</p>
+      <registration-com *ngIf="registerFaq"></registration-com>
     </div>
     <div>
-      <p>Scheduling Appointment</p>
+      <p>B. Scheduling Appointment</p>
     </div>
     <div>
-      <p>2nd Dose Scheduling</p>
+      <p>C. 2nd Dose Scheduling</p>
     </div>
     <div>
-      <p>Vaccination</p>
+      <p>D. Vaccination</p>
     </div>
     <div>
-      <p>Vaccinataion Certificate</p>
+      <p>E. Vaccinataion Certificate</p>
     </div>
     <div>
-      <p>Reporting Side Effects</p>
+      <p>F. Reporting Side Effects</p>
     </div>
   </div>
   <!-- <button (click)="toggleDetails()">
