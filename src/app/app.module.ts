@@ -13,6 +13,8 @@ import { RegisterComponent } from './register/register.component';
 import { SearchContentComponent } from './search-content/search-content.component';
 import { FaqComponent } from './faq/faq.component';
 import { RegistrationComComponent } from './registration-com/registration-com.component';
+import { SchedulingComComponent } from './scheduling-com/scheduling-com.component';
+import { VaccinationComComponent } from './vaccination-com/vaccination-com.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { RegistrationComComponent } from './registration-com/registration-com.co
     SearchContentComponent,
     FaqComponent,
     RegistrationComComponent,
+    SchedulingComComponent,
+    VaccinationComComponent,
   ],
   imports: [
     BrowserModule,
