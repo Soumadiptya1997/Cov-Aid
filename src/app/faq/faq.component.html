@@ -14,10 +14,12 @@
       <app-vaccination-com *ngIf="vaccinationFaq"></app-vaccination-com>
     </div>
     <div>
-      <p>D. Vaccinataion Certificate</p>
+      <p (click)="certificateFaq = !certificateFaq">D. Vaccinataion Certificate</p>
+      <app-certificate-com *ngIf="certificateFaq"></app-certificate-com>
     </div>
     <div>
-      <p>E. Reporting Side Effects</p>
+      <p (click)="sideffectFaq = !sideffectFaq">E. Reporting Side Effects</p>
+      <app-sideeffect-com *ngIf="sideffectFaq"></app-sideeffect-com>
     </div>
   </div>
 </div>

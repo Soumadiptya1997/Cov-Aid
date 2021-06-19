@@ -15,6 +15,8 @@ import { FaqComponent } from './faq/faq.component';
 import { RegistrationComComponent } from './registration-com/registration-com.component';
 import { SchedulingComComponent } from './scheduling-com/scheduling-com.component';
 import { VaccinationComComponent } from './vaccination-com/vaccination-com.component';
+import { CertificateComComponent } from './certificate-com/certificate-com.component';
+import { SideeffectComComponent } from './sideeffect-com/sideeffect-com.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { VaccinationComComponent } from './vaccination-com/vaccination-com.compo
     RegistrationComComponent,
     SchedulingComComponent,
     VaccinationComComponent,
+    CertificateComComponent,
+    SideeffectComComponent,
   ],
   imports: [
     BrowserModule,

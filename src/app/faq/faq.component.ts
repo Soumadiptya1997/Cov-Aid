@@ -11,6 +11,8 @@ export class FaqComponent implements OnInit {
   registerFaq: boolean = false;
   schedulingFaq: boolean = false;
   vaccinationFaq: boolean = false;
+  certificateFaq: boolean = false
+  sideffectFaq: boolean = false;
   ngOnInit(): void {
     this.showDetails = !this.showDetails;
   }
