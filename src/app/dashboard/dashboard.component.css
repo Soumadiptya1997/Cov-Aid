@@ -1,4 +1,11 @@
-.mainpart {
+.mainpart h2,
+.mainpart p {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* .mainpart {
   position: fixed;
   top: 10%;
   left: 44%;
@@ -29,4 +36,4 @@
 }
 .schedule_button:hover {
   background-color: #e6f0f7;
-}
+} */

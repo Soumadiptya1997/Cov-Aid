@@ -1,14 +1,29 @@
 <div class="mainpart">
-  <p>Account Details</p>
-
-  <div class="mobile">Registered Mobile Number:</div>
-  <div class="">
-    {{ first_name }}
-    {{ last_name }}
-    REF ID : {{ refid }} Secret Code : {{ secret_id }}
-    {{ birth_year }}
-    {{ photoid }}
-    {{ id_no }}
-    <button class="schedule_button">Schedule</button>
+  <h2>Account Details</h2>
+  <p>Registered E-mail ID : <span class="email"> xxxxxx@gxx.com </span></p>
+  <div class="account-details">
+    <div class="name-details">
+      <h3>Sayanti Seal</h3>
+      <p>REF ID : 39126675206610</p>
+      <h5>Secret Code : 6610</h5>
+    </div>
+    <div class="id-details">
+      <h4>Year of Birth: <span class="year">1998</span></h4>
+      <h4>Photo ID: <span class="photo-id"> Aadhaar Card</span></h4>
+      <h4>ID Number: <span class="id-no">XXXX-4118</span></h4>
+    </div>
+    <div class="dose-details">
+      <h5>Appointment Not Schedule</h5>
+      <button class="btn btn-success">Schedule</button>
+    </div>
   </div>
 </div>
+
+<!-- {{ first_name }}
+      {{ last_name }}
+      REF ID : {{ refid }} Secret Code : {{ secret_id }}
+      {{ birth_year }}
+      {{ photoid }}
+      {{ id_no }} -->
+
+<!-- <button class="schedule_button">Schedule</button> -->
