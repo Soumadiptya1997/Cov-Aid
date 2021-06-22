@@ -4,6 +4,21 @@
   padding-left: 10px;
   padding-top: 10px;
 }
+.account-details{
+  position: fixed;
+  top: 10%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  border: 1px solid #b1d7f1;
+  padding: 10px;    
+  margin: 200px 10px 30px 10px;
+  box-shadow: 1px 1px 1px 1px #b1d7f1;
+}
+.name-details{
+  display: flex;
+  padding-top: 30px;
+}
 
 /* .mainpart {
   position: fixed;
