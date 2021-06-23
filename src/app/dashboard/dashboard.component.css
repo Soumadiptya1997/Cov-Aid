@@ -1,54 +1,25 @@
-.mainpart h2,
-.mainpart p {
-  display: flex;
-  padding-left: 10px;
+.abovemainpart{
+  padding-top: 20px;
+}
+.mainpart {
+  border: 1px solid rgb(184, 185, 184);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
   padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.account-details{
-  position: fixed;
-  top: 10%;
-  left: 44%;
-  transform: translate(-50%, -50%);
-  border-radius: 25px;
-  border: 1px solid #b1d7f1;
-  padding: 10px;    
-  margin: 200px 10px 30px 10px;
-  box-shadow: 1px 1px 1px 1px #b1d7f1;
+.mainpart h2{
+  text-decoration-color: #012060;
 }
-.name-details{
-  display: flex;
-  padding-top: 30px;
-}
-
-/* .mainpart {
-  position: fixed;
-  top: 10%;
-  left: 44%;
-  transform: translate(-50%, -50%);
-  border-radius: 25px;
-  border: 1px solid #b1d7f1;
-  padding: 10px;    
-  margin: 200px 10px 30px 10px;
-  box-shadow: 1px 1px 1px 1px #b1d7f1;
-}
-
-.mobile {
-  color: #262626;
-  font-size: 17px;
-  font-weight: 700;
-  margin-left: 1px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+.account-details {
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid rgb(184, 185, 184);
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.schedule_button{
-  text-align: center;
-  padding: 0 20px;
-  border-radius: 15px;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  background-color: #c0e1f7;
-}
-.schedule_button:hover {
-  background-color: #e6f0f7;
-} */
