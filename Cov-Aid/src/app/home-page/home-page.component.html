@@ -1,0 +1,103 @@
+<div class="help-line">
+  <h4>Helpline</h4>
+  <div class="homehelp">
+    <div class="help-inner">
+      <i class="fas fa-phone-alt fa-2x"></i>
+      <div>
+        <h5>Number</h5>
+        <h5>91-11-23978046</h5>
+      </div>
+    </div>
+    <div class="help-inner">
+      <i class="fas fa-heartbeat fa-2x"></i>
+      <div>
+        <h5>Health Ministry</h5>
+        <h5>1075</h5>
+      </div>
+    </div>
+    <div class="help-inner">
+      <i class="fas fa-child fa-2x"></i>
+      <div>
+        <h5>Child</h5>
+        <h5>1098</h5>
+      </div>
+    </div>
+    <div class="help-inner">
+      <i class="fas fa-procedures fa-2x"></i>
+      <div>
+        <h5>Mental Health</h5>
+        <h5>08046110007</h5>
+      </div>
+    </div>
+    <div class="help-inner">
+      <i class="fas fa-male fa-2x"></i>
+      <div>
+        <h5>Senior Citizen</h5>
+        <h5>14567</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<img
+  style="width: 100%"
+  src="../../assets/images/largest-vaccine-banner.jpg"
+  alt="Banner"
+/>
+
+<div class="search-center">
+  <h5>Check your nearest vaccination center and slots availability</h5>
+  <div class="search-center-btns">
+    <button
+      [ngClass]="[searchCenter ? 'btn-center-on' : 'btn-center-off']"
+      (click)="searchClick()"
+    >
+      Search by PIN
+    </button>
+    <button
+      [ngClass]="[searchCenter ? 'btn-center-off' : 'btn-center-on']"
+      (click)="searchClick()"
+    >
+      Search by District
+    </button>
+  </div>
+  <search-pin [searchData]="searchCenter"></search-pin>
+  <search-district [searchData]="searchCenter"></search-district>
+</div>
+
+<div class="howitworks">
+  <h3>How It Works</h3>
+  <div class="insideworks">
+    <div class="worksinner">
+      <img src="../../assets/images/s1.svg" alt="" />
+      <div>
+        <h2>REGISTER YOURSELF</h2>
+        <p>
+          Register using your Mobile no. or Aadhaar no. or any other Identity
+          docs..
+        </p>
+      </div>
+    </div>
+    <div class="worksinner">
+      <img src="../../assets/images/s2.svg" alt="" />
+      <div>
+        <h2>CHOOSE VACCINE LOCATION</h2>
+        <p>Select your nearby Vaccine Center for vaccination</p>
+      </div>
+    </div>
+    <div class="worksinner">
+      <img src="../../assets/images/s3.svg" alt="" />
+      <div>
+        <h2>CONFIRM YOUR SLOT</h2>
+        <p>Book your slot to Get Vaccine</p>
+      </div>
+    </div>
+    <div class="worksinner">
+      <img src="../../assets/images/s4.png" alt="" />
+      <div>
+        <h2>ANY QUESTION?</h2>
+        <p>Please follow our Frequently asked questions</p>
+      </div>
+    </div>
+  </div>
+</div>

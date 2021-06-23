@@ -1,0 +1,25 @@
+.abovemainpart{
+  padding-top: 20px;
+}
+.mainpart {
+  border: 1px solid rgb(184, 185, 184);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mainpart h2{
+  text-decoration-color: #012060;
+}
+.account-details {
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(184, 185, 184);
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

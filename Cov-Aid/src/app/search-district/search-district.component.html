@@ -1,0 +1,42 @@
+<div *ngIf="!searchData">
+  <div class="search-dis">
+    <div class="state">
+      <select class="form-control">
+        <option>Select State</option>
+        <option value="" selected>West Bengal</option>
+      </select>
+      <i class="fas fa-sort-down"></i>
+    </div>
+    <div class="state">
+      <select class="form-control">
+        <option>Select District</option>
+        <option value="">Alipur Duar</option>
+        <option value="">Bankura</option>
+        <option value="">Birbhum</option>
+        <option value="">Cooch Behar</option>
+        <option value="">Dakshin Dinajpur</option>
+        <option value="">Darjeeling</option>
+        <option value="">Hooghly</option>
+        <option value="">Howrah</option>
+        <option value="">Jalpaiguri</option>
+        <option value="">Jhargarm</option>
+        <option value="">Kalimpong</option>
+        <option value="">Kolkata</option>
+        <option value="">Malda</option>
+        <option value="">Mursidabad</option>
+        <option value="">Nadia</option>
+        <option value="">North 24 Parganas</option>
+        <option value="">Pachim Medinipore</option>
+        <option value="">Pachim Bardhaman</option>
+        <option value="">Purba Bardhaman</option>
+        <option value="">Purba Medinipore</option>
+        <option value="">Purulia</option>
+        <option value="">South 24 Parganas</option>
+        <option value="">Uttar Dinajpur</option>
+      </select>
+      <i class="fas fa-sort-down"></i>
+    </div>
+    <button class="btn" (click)="searchBtnClick()">Search</button>
+  </div>
+  <search-content [sContentData]="searchContent"></search-content>
+</div>

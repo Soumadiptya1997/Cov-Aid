@@ -1,0 +1,25 @@
+<div class="faqall">
+  <h2>Frequently Asked Questions on Cov-Aid</h2>
+  <div class="inside-faq">
+    <div>
+      <p (click)="registerFaq = !registerFaq">A. Registration</p>
+      <registration-com *ngIf="registerFaq"></registration-com>
+    </div>
+    <div>
+      <p (click)="schedulingFaq = !schedulingFaq">B. Scheduling Appointment</p>
+      <app-scheduling-com *ngIf="schedulingFaq"></app-scheduling-com>
+    </div>
+    <div>
+      <p (click)="vaccinationFaq = !vaccinationFaq">C. Vaccination</p>
+      <app-vaccination-com *ngIf="vaccinationFaq"></app-vaccination-com>
+    </div>
+    <div>
+      <p (click)="certificateFaq = !certificateFaq">D. Vaccinataion Certificate</p>
+      <app-certificate-com *ngIf="certificateFaq"></app-certificate-com>
+    </div>
+    <div>
+      <p (click)="sideffectFaq = !sideffectFaq">E. Reporting Side Effects</p>
+      <app-sideeffect-com *ngIf="sideffectFaq"></app-sideeffect-com>
+    </div>
+  </div>
+</div>
