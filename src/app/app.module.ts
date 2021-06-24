@@ -4,12 +4,9 @@ import { AppRoutingModule, routingComponent } from './app-routing.module';
 
 // App Compontent
 import { AppComponent } from './app.component';
-import { SearchDComponent } from './search-d/search-d.component';
-import { SearchPComponent } from './search-p/search-p.component';
-
 
 @NgModule({
-  declarations: [routingComponent, AppComponent, SearchDComponent, SearchPComponent, ],
+  declarations: [routingComponent, AppComponent],
   imports: [BrowserModule, AppRoutingModule],
 
   providers: [],

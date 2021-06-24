@@ -6,9 +6,23 @@
   border-radius: 6px;
   box-shadow: 0 4px 8px 0 #636363b2, 0 6px 20px 0 #7e7e7eb2;
 }
-.mainpart a {
-  color:blueviolet
 
+.mainpart .head {
+  display: flex;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.mainpart .head .btn {
+  color: blueviolet;
+  font-size: 23px;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.mainpart .head h2 {
+  margin: 0;
+  height: fit-content;
 }
 
 .search-center {

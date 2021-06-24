@@ -16,6 +16,8 @@ import { VaccinationComComponent } from './vaccination-com/vaccination-com.compo
 import { CertificateComComponent } from './certificate-com/certificate-com.component';
 import { SideeffectComComponent } from './sideeffect-com/sideeffect-com.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { SearchDComponent } from './search-d/search-d.component';
+import { SearchPComponent } from './search-p/search-p.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -46,5 +48,7 @@ export const routingComponent = [
   VaccinationComComponent,
   CertificateComComponent,
   SideeffectComComponent,
-  ScheduleComponent
+  ScheduleComponent,
+  SearchDComponent,
+  SearchPComponent,
 ];
