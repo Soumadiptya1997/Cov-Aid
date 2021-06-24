@@ -1,0 +1,21 @@
+.search-pin {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.search-pin .form-control {
+  width: 500px;
+  margin-right: 10px;
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+
+.search-pin .btn {
+  background-color: #dadada;
+  color: #001f60;
+  border-color: #001f60;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 7px;
+}

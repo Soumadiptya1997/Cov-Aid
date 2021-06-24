@@ -15,6 +15,7 @@ import { SchedulingComComponent } from './scheduling-com/scheduling-com.componen
 import { VaccinationComComponent } from './vaccination-com/vaccination-com.component';
 import { CertificateComComponent } from './certificate-com/certificate-com.component';
 import { SideeffectComComponent } from './sideeffect-com/sideeffect-com.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'schedule', component: ScheduleComponent },
 ];
 
 @NgModule({
@@ -44,4 +46,5 @@ export const routingComponent = [
   VaccinationComComponent,
   CertificateComComponent,
   SideeffectComComponent,
+  ScheduleComponent
 ];
