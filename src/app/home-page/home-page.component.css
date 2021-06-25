@@ -110,19 +110,84 @@
   padding-left: 40px;
   width: 340px;
 }
+
 .report {
   background-color: #f4f4f4;
-  padding-top: 10px;
+  padding: 20px 0;
 }
+
 .report h3 {
   text-align: center;
   text-decoration: underline;
 }
+
 .vaccinated {
   display: flex;
-  justify-content: center;
+  margin-top: 20px;
 }
+
 .vaccination-report {
+  flex: 1;
   display: flex;
+  justify-content: center;
   align-items: center;
+  border-right: 2px solid #777;
+  padding: 15px 0;
+}
+
+.vaccination-report:last-child {
+  border: none;
+}
+
+.vaccination-report i {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.vaccination-report h4 {
+  margin-bottom: 5px;
+}
+
+.vaccination-report p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.blue {
+  color: #2c4e8b;
+}
+
+.blue i {
+  background-color: #2c4e8b;
+}
+
+.brown {
+  color: #663b15;
+}
+
+.brown i {
+  background-color: #663b15;
+}
+
+.pink {
+  color: #992936;
+}
+
+.pink i {
+  background-color: #992936;
+}
+
+.green {
+  color: #56a638;
+}
+
+.green i {
+  background-color: #56a638;
 }
