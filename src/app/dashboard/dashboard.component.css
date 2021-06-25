@@ -35,7 +35,15 @@
   justify-content: space-between;
   align-items: center;
 }
+.dose-details .btn-success {
+  background-color: #18b5ba;
+  border-color: #18b5ba;
+}
 
+.dose-details .btn-success:hover {
+  background-color: #8ae5ea;
+  border-color: #8ae5ea;
+}
 .note {
   background-color: #87e1e4;
   border-top: 1px solid #707070;

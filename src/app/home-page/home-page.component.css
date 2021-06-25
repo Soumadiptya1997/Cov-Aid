@@ -110,3 +110,19 @@
   padding-left: 40px;
   width: 340px;
 }
+.report {
+  background-color: #f4f4f4;
+  padding-top: 10px;
+}
+.report h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.vaccinated {
+  display: flex;
+  justify-content: center;
+}
+.vaccination-report {
+  display: flex;
+  align-items: center;
+}
