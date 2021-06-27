@@ -58,3 +58,8 @@
   text-align: left;
   padding-top: 10px;
 }
+.notecontent {
+  display: block;
+  padding-bottom: 4px;
+  font-size: small;
+}
