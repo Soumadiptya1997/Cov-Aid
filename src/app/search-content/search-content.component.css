@@ -18,4 +18,16 @@
 }
 
 .slot-main {
+  width: 885px;
+  margin: 0 auto;
+}
+
+.avail {
+  padding: 3px 5px;
+  background-color: #66ff8aaa;
+}
+
+.n-avail {
+  padding: 3px 5px;
+  background-color: #ff595faa;
 }
