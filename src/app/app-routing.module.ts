@@ -18,6 +18,7 @@ import { SideeffectComComponent } from './sideeffect-com/sideeffect-com.componen
 import { ScheduleComponent } from './schedule/schedule.component';
 import { SearchDComponent } from './search-d/search-d.component';
 import { SearchPComponent } from './search-p/search-p.component';
+import { OtpPageComponent } from './otp-page/otp-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'schedule', component: ScheduleComponent },
+  { path: 'otppage', component: OtpPageComponent },
 ];
 
 @NgModule({
@@ -51,4 +53,5 @@ export const routingComponent = [
   ScheduleComponent,
   SearchDComponent,
   SearchPComponent,
+  OtpPageComponent,
 ];
