@@ -19,8 +19,14 @@ export class AppComponent {
       this.loginFlag = false;
     }
   }
+
   loginFunc() {
     this.cookieS.set('LOGINCOV', 'COVAID');
     this.loginFlag = true;
+  }
+
+  logoutFunc() {
+    this.cookieS.deleteAll();
+    this.loginFlag = false;
   }
 }
