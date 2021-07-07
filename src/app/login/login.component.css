@@ -65,12 +65,14 @@
 .login-body .login-form .btn-otp {
   color: #fff;
   font-weight: bold;
-  background-color: #5ddfe4;
-  border-color: #5ddfe4;
+  background-color: #18b5ba;
+  border-color: #18b5ba;
   width: 100%;
   margin: 10px 0;
 }
 
 .login-body .login-form .btn-otp:hover {
   opacity: 0.9;
+  background-color: #8ae5ea;
+  border-color: #8ae5ea;
 }

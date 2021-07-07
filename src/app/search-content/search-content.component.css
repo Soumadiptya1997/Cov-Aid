@@ -25,6 +25,7 @@
 .avail {
   padding: 3px 5px;
   background-color: #66ff8aaa;
+  cursor: pointer;
 }
 
 .n-avail {

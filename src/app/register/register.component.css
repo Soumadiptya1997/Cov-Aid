@@ -83,5 +83,6 @@
 }
 .form-style-5 input[type="submit"]:hover,
 .form-style-5 input[type="button"]:hover {
-  background: #5ddfe4;
+  background-color: #8ae5ea;
+  border-color: #8ae5ea;
 }

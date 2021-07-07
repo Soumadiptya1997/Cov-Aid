@@ -8,6 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class SearchContentComponent implements OnInit {
   constructor() {}
   ngOnInit(): void {}
-
   @Input() sContentData;
+
+  slotBook() {
+    alert("Vaccination Slot Booked.")
+  }
 }
